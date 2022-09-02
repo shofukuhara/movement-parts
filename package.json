@@ -1,0 +1,17 @@
+{
+  "name": "movement-parts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shofukuhara/movement-parts.git",
+  "author": "shofukuhara <sho.fukuhara0213@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass": "sass 'src/scss/pages/style.scss':'src/css/style.css'",
+    "pug": "pug 'index.pug'"
+  },
+  "dependencies": {
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.54.8"
+  }
+}
