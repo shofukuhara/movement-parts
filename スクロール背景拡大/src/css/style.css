@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__logo {
+  margin-left: 20px;
+}
+.header__flex {
+  width: 100%;
+  background-color: rgb(215, 237, 250);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 6;
+}
+.header__list {
+  display: flex;
+}
+.header__list-item {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.bg {
+  position: relative;
+  overflow: hidden;
+}
+.bg__img {
+  z-index: 1;
+  background-image: url(../img/coffeehouse-g9803a53ef_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  transform-origin: center;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+.concept {
+  margin: 500px 100px;
+}
+.concept__sectitle {
+  text-align: center;
+}
+
+.news {
+  margin: 500px 100px;
+}
+.news__sectitle {
+  text-align: center;
+}
+
+.first {
+  margin: 500px 100px;
+}
+.first__sectitle {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

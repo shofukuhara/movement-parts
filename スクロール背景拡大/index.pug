@@ -4,18 +4,19 @@ html(lang="ja")
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="./src/css/style.css")
     title Document
   body
     header.header
       .header__flex
-        h1.header__logo
+        h1.header__logo logo
         nav.header__nav 
           ul.header__list
-          - let list = ['concept', 'news', 'first',]
-          each  item in list
-            li.header__list-item
-              a(href="#" class="header__list-link") #{item}
-    .bg__wrapper
+            - let list = ['concept', 'news', 'first',]
+            each  item in list
+              li.header__list-item
+                a(href="#" class="header__list-link") #{item}
+    .bg
       .bg__img
     main.container 
       section.concept
