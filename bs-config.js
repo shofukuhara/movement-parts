@@ -15,7 +15,7 @@ module.exports = {
   ui: {
     port: 3001,
   },
-  files: ["./スクロール背景拡大/index.pug", "./スクロール背景拡大/src/scss/style.scss"],
+  files: ["./スクロールすると下の背景がかぶさる/index.pug", "./スクロールすると下の背景がかぶさる/src/scss/style.scss':'./スクロールすると下の背景がかぶさる/src/css/style.css'"],
   watchEvents: ["change"],
   watch: false,
   ignore: [],
@@ -23,7 +23,7 @@ module.exports = {
   watchOptions: {
     ignoreInitial: true,
   },
-  server: 'スクロール背景拡大',
+  server: 'スクロールすると下の背景がかぶさる',
   proxy: false,
   port: 3000,
   middleware: false,

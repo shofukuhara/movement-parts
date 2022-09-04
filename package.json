@@ -6,11 +6,11 @@
   "author": "shofukuhara <sho.fukuhara0213@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "sass": "sass './スクロール背景拡大/src/scss/style.scss':'./スクロール背景拡大/src/css/style.css'",
-    "pug": "pug './スクロール背景拡大/index.pug'",
-    "format": "prettier --write './スクロール背景拡大/index.html'",
-    "watch:pug": "pug --watch './スクロール背景拡大/index.pug'",
-    "watch:sass": "sass --watch './スクロール背景拡大/src/scss/style.scss':'./スクロール背景拡大/src/css/style.css'",
+    "sass": "sass './スクロールすると下の背景がかぶさる/src/scss/style.scss':'./スクロールすると下の背景がかぶさる/src/css/style.css'",
+    "pug": "pug './スクロールすると下の背景がかぶさる/index.pug'",
+    "format": "prettier --write './スクロールすると下の背景がかぶさる/index.html'",
+    "watch:pug": "pug --watch './スクロールすると下の背景がかぶさる/index.pug'",
+    "watch:sass": "sass --watch './スクロールすると下の背景がかぶさる/src/scss/style.scss' './スクロールすると下の背景がかぶさる/src/css/style.css'",
     "watch": "yarn watch:pug & yarn watch:sass",
     "bs": "browser-sync start --config bs-config.js watch",
     "build": "yarn watch & yarn bs"
