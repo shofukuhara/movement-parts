@@ -12,7 +12,7 @@
     "watch:pug": "pug --watch './scrolldown/index.pug'",
     "watch:sass": "sass --watch './scrolldown/src/scss/style.scss' './scrolldown/src/css/style.css'",
     "watch": "yarn watch:pug & yarn watch:sass",
-    "bs": "browser-sync start --config bs-config.js watch",
+    "bs": "browser-sync start --config bs-config.js",
     "build": "yarn watch & yarn bs"
   },
   "dependencies": {
