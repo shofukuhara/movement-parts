@@ -6,11 +6,11 @@
   "author": "shofukuhara <sho.fukuhara0213@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "sass": "sass './スクロールすると下の背景がかぶさる/src/scss/style.scss':'./スクロールすると下の背景がかぶさる/src/css/style.css'",
-    "pug": "pug './スクロールすると下の背景がかぶさる/index.pug'",
-    "format": "prettier --write './スクロールすると下の背景がかぶさる/index.html'",
-    "watch:pug": "pug --watch './スクロールすると下の背景がかぶさる/index.pug'",
-    "watch:sass": "sass --watch './スクロールすると下の背景がかぶさる/src/scss/style.scss' './スクロールすると下の背景がかぶさる/src/css/style.css'",
+    "sass": "sass './scrolldown/src/scss/style.scss':'./scrolldown/src/css/style.css'",
+    "pug": "pug './scrolldown/index.pug'",
+    "format": "prettier --write './scrolldown/index.html'",
+    "watch:pug": "pug --watch './scrolldown/index.pug'",
+    "watch:sass": "sass --watch './scrolldown/src/scss/style.scss' './scrolldown/src/css/style.css'",
     "watch": "yarn watch:pug & yarn watch:sass",
     "bs": "browser-sync start --config bs-config.js watch",
     "build": "yarn watch & yarn bs"

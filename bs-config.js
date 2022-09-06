@@ -15,7 +15,10 @@ module.exports = {
   ui: {
     port: 3001,
   },
-  files: ["./スクロールすると下の背景がかぶさる/index.pug", "./スクロールすると下の背景がかぶさる/src/scss/style.scss':'./スクロールすると下の背景がかぶさる/src/css/style.css'"],
+  files: [
+    "./scrolldown/index.pug",
+    "./scrolldown/src/scss/style.scss':'./scrolldown/src/css/style.css'",
+  ],
   watchEvents: ["change"],
   watch: false,
   ignore: [],
@@ -23,7 +26,7 @@ module.exports = {
   watchOptions: {
     ignoreInitial: true,
   },
-  server: 'スクロールすると下の背景がかぶさる',
+  server: "scrolldown",
   proxy: false,
   port: 3000,
   middleware: false,
