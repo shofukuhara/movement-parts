@@ -16,8 +16,8 @@ module.exports = {
     port: 3001,
   },
   files: [
-    "./scrolldown/index.pug",
-    "./scrolldown/src/scss/style.scss':'./scrolldown/src/css/style.css'",
+    "./mouseStalker/index.pug",
+    "./mouseStalker/src/scss/style.scss':'./mouseStalker/src/css/style.css'",
   ],
   watchEvents: ["change"],
   watch: false,
@@ -26,7 +26,7 @@ module.exports = {
   watchOptions: {
     ignoreInitial: true,
   },
-  server: "scrolldown",
+  server: "mouseStalker",
   proxy: false,
   port: 3000,
   middleware: false,

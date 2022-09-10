@@ -6,11 +6,11 @@
   "author": "shofukuhara <sho.fukuhara0213@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "sass": "sass './scrolldown/src/scss/style.scss':'./scrolldown/src/css/style.css'",
-    "pug": "pug './scrolldown/index.pug'",
-    "format": "prettier --write './scrolldown/index.html'",
-    "watch:pug": "pug --watch './scrolldown/index.pug'",
-    "watch:sass": "sass --watch './scrolldown/src/scss/style.scss' './scrolldown/src/css/style.css'",
+    "sass": "sass './mouseStalker/src/scss/style.scss':'./mouseStalker/src/css/style.css'",
+    "pug": "pug './mouseStalker/index.pug'",
+    "format": "prettier --write './mouseStalker/index.html'",
+    "watch:pug": "pug --watch './mouseStalker/index.pug'",
+    "watch:sass": "sass --watch './mouseStalker/src/scss/style.scss' './mouseStalker/src/css/style.css'",
     "watch": "yarn watch:pug & yarn watch:sass",
     "bs": "browser-sync start --config bs-config.js",
     "build": "yarn watch & yarn bs"
