@@ -24,6 +24,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+#stalker.hov_ {
+  background-color: aqua;
+  width: 120px;
+  height: 120px;
+  transition: 0.5s;
+}
 
 .btn {
   position: absolute;
