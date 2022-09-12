@@ -16,8 +16,8 @@ module.exports = {
     port: 3001,
   },
   files: [
-    "./mouseStalker/index.pug",
-    "./mouseStalker/src/scss/style.scss':'./mouseStalker/src/css/style.css'",
+    "./curtain/index.pug",
+    "./curtain/src/scss/style.scss':'./curtain/src/css/style.css'",
   ],
   watchEvents: ["change"],
   watch: false,
@@ -26,7 +26,7 @@ module.exports = {
   watchOptions: {
     ignoreInitial: true,
   },
-  server: "mouseStalker",
+  server: "curtain",
   proxy: false,
   port: 3000,
   middleware: false,
