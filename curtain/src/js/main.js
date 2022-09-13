@@ -1,9 +1,7 @@
-// const before = getComputedStyle(
-//   document.querySelector(".box"),
-//   "::before"
-// ).width;
+const play1 = document.querySelector(".box1");
+const play2 = document.querySelector(".box2");
 
-const play = document.querySelector(".box");
 setTimeout(() => {
-  play.classList.add("isPlay");
+  play1.classList.add("isPlay1");
+  play2.classList.add("isPlay2");
 }, 1000);
