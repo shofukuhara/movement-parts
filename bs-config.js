@@ -16,8 +16,8 @@ module.exports = {
     port: 3001,
   },
   files: [
-    "./curtain/index.pug",
-    "./curtain/src/scss/style.scss':'./curtain/src/css/style.css'",
+    "./ScreenTransition/index.pug",
+    "./ScreenTransition/src/scss/style.scss':'./ScreenTransition/src/css/style.css'",
   ],
   watchEvents: ["change"],
   watch: false,
@@ -26,7 +26,7 @@ module.exports = {
   watchOptions: {
     ignoreInitial: true,
   },
-  server: "curtain",
+  server: "ScreenTransition",
   proxy: false,
   port: 3000,
   middleware: false,

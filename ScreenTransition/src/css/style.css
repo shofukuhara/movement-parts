@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+#splash {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  z-index: 9999999;
+  text-align: center;
+  color: #fff;
+}
+
+.splash__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+}
+
+.fade {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
