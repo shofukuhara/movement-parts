@@ -16,8 +16,8 @@ module.exports = {
     port: 3001,
   },
   files: [
-    "./ScreenTransition/index.pug",
-    "./ScreenTransition/src/scss/style.scss':'./ScreenTransition/src/css/style.css'",
+    "./hover/index.pug",
+    "./hover/src/scss/style.scss':'./hover/src/css/style.css'",
   ],
   watchEvents: ["change"],
   watch: false,
@@ -26,7 +26,7 @@ module.exports = {
   watchOptions: {
     ignoreInitial: true,
   },
-  server: "ScreenTransition",
+  server: "hover",
   proxy: false,
   port: 3000,
   middleware: false,
