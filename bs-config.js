@@ -16,8 +16,8 @@ module.exports = {
     port: 3001,
   },
   files: [
-    "./hover/index.pug",
-    "./hover/src/scss/style.scss':'./hover/src/css/style.css'",
+    "./fadein/index.pug",
+    "./fadein/src/scss/style.scss':'./fadein/src/css/style.css'",
   ],
   watchEvents: ["change"],
   watch: false,
@@ -26,7 +26,7 @@ module.exports = {
   watchOptions: {
     ignoreInitial: true,
   },
-  server: "hover",
+  server: "fadein",
   proxy: false,
   port: 3000,
   middleware: false,

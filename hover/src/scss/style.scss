@@ -79,7 +79,7 @@ img {
   }
 }
 
-.cap {
+.cap1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -91,7 +91,51 @@ img {
   font-size: 2rem;
 }
 
-.mask1:hover .cap   {
+.mask1:hover .cap1 {
   opacity: 1;
 }
 
+// 03
+.rotate {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  line-height: 0;
+  &:hover img {
+    opacity: 0;
+    transform: translateX(-180deg);
+  }
+  &:hover .cap2 {
+    transform: rotateX(0);
+    opacity: 1;
+    transition-delay: 0.15s;
+  }
+}
+
+.rotate img {
+  transition: all 0.35s ease;
+  backface-visibility: hidden;
+}
+
+.cap2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.35s ease;
+  transform: rotateX(90deg);
+  transform-origin: 0% 50%;
+  opacity: 0;
+  font-size: 2rem;
+  background:#333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
