@@ -6,11 +6,11 @@
   "author": "shofukuhara <sho.fukuhara0213@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "sass": "sass './fadein/src/scss/style.scss':'./fadein/src/css/style.css'",
-    "pug": "pug './fadein/index.pug'",
-    "format": "prettier --write './fadein/index.html'",
-    "watch:pug": "pug --watch './fadein/index.pug'",
-    "watch:sass": "sass --watch './fadein/src/scss/style.scss' './fadein/src/css/style.css'",
+    "sass": "sass './hamburger/src/scss/style.scss':'./hamburger/src/css/style.css'",
+    "pug": "pug './hamburger/index.pug'",
+    "format": "prettier --write './hamburger/index.html'",
+    "watch:pug": "pug --watch './hamburger/index.pug'",
+    "watch:sass": "sass --watch './hamburger/src/scss/style.scss' './hamburger/src/css/style.css'",
     "watch": "yarn watch:pug & yarn watch:sass",
     "bs": "browser-sync start --config bs-config.js",
     "build": "yarn watch & yarn bs"

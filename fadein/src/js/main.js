@@ -1,7 +1,7 @@
 document.querySelector(".item").animate(
   [
     {
-      transform: "translateY(500px)",
+      transform: "translateY(30px)",
       opacity: 0,
     },
     {

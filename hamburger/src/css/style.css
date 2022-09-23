@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: #F0F0F0;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__reserve {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.header__reserve-tel {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+}
+.header__reserve-tel-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.header__reserve-tel-icon img {
+  width: 26px;
+}
+.header__reserve-link {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  margin-left: 1px;
+}
+.header__logo {
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 0;
+}
+.header__hamburger {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+.header__hamburger:hover .header__hamburger-open {
+  width: 24px;
+  transition: 0.3s ease;
+}
+.header__hamburger-open {
+  position: absolute;
+  width: 18px;
+  height: 14px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: 0.3s ease;
+}
+.header__hamburger-open > span {
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  position: absolute;
+}
+.header__hamburger-open > span:nth-of-type(1) {
+  top: 0;
+}
+.header__hamburger-open > span:nth-of-type(2) {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.header__hamburger-open > span:nth-of-type(3) {
+  bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

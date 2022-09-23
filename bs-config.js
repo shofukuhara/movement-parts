@@ -16,8 +16,8 @@ module.exports = {
     port: 3001,
   },
   files: [
-    "./fadein/index.pug",
-    "./fadein/src/scss/style.scss':'./fadein/src/css/style.css'",
+    "./hamburger/index.pug",
+    "./hamburger/src/scss/style.scss':'./hamburger/src/css/style.css'",
   ],
   watchEvents: ["change"],
   watch: false,
@@ -26,7 +26,7 @@ module.exports = {
   watchOptions: {
     ignoreInitial: true,
   },
-  server: "fadein",
+  server: "hamburger",
   proxy: false,
   port: 3000,
   middleware: false,
