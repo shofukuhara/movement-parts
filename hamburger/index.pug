@@ -8,19 +8,26 @@ html(lang="ja")
     title hamburger
   body
     header.header
-      .header__wrapper
-        .header__reserve
-          a(href="tel:000-000-000").header__reserve-tel
-            .header__reserve-tel-icon
-              img(src="./src/img/tel.png", alt="")
-          a(href="#").header__reserve-link
-            p.header__reserve-text
-              span.header__reserve-text-base Web予約
-              span.header__reserve-text-back Web予約
-        .header__logo
-          p header__hamburger
-        .header__hamburger
-          .header__hamburger-open
+      .header__reserve
+        a(href="tel:000-000-000").header__reserve-tel
+          .header__reserve-tel-icon
+            img(src="./src/img/tel.png", alt="")
+          p 000-000-000
+        a(href="#").header__reserve-link
+          p.header__reserve-text
+            span.header__reserve-text-base Web予約
+            span.header__reserve-text-back Web予約
+      .header__logo
+        p header__hamburger
+      .header__hamburger
+        .header__hamburger-open
+          span
+          span
+          span
+      .header__menu
+        .header__menu-hamburger
+          .header__menu-hamburger-close
             span
             span
             span
+  script(src="./src/js/main.js") 
