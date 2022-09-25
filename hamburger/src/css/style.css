@@ -7,6 +7,10 @@ body {
   background-color: #F0F0F0;
 }
 
+li {
+  list-style: none;
+}
+
 .header__reserve {
   display: flex;
   position: relative;
@@ -192,6 +196,104 @@ body {
   width: 90px;
   height: 90px;
   transition: 0.8s ease;
+}
+.header__menu-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.header__menu-nav {
+  width: 400px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  visibility: hidden;
+  transition: 0.5s ease;
+}
+.header__menu-nav ul {
+  margin: 0;
+  padding: 54px 0;
+}
+.header__menu-nav ul li {
+  text-align: center;
+}
+.header__menu-nav.display {
+  visibility: visible;
+  transition: 0.8s ease;
+}
+.header__menu-list {
+  padding: 6px 20px;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__menu-list:hover .header__menu-list-text-base {
+  transform: translate3d(0, -110%, 0);
+  transition: 0.3s ease;
+}
+.header__menu-list:hover .header__menu-list-text-back {
+  transform: translate3d(0, 0, 0);
+  transition: 0.3s ease;
+}
+.header__menu-list-text {
+  position: relative;
+  color: #888;
+  font-size: 1.4rem;
+  overflow: hidden;
+}
+.header__menu-list-text-base {
+  display: block;
+}
+.header__menu-list-text-back {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 110%, 0);
+}
+.header__menu-reserve {
+  border-top: 1px solid #e3e3e3;
+  height: 78px;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__menu-reserve:hover .header__menu-reserve-text-base {
+  transform: translate3d(0, -110%, 0);
+  transition: 0.3s ease;
+}
+.header__menu-reserve:hover .header__menu-reserve-text-back {
+  transform: translate3d(0, 0, 0);
+  transition: 0.3s ease;
+}
+.header__menu-reserve-text {
+  position: relative;
+  color: #888;
+  font-size: 1.4rem;
+  overflow: hidden;
+}
+.header__menu-reserve-text-base {
+  display: block;
+}
+.header__menu-reserve-text-back {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 110%, 0);
 }
 .header__menu.display {
   visibility: visible;
