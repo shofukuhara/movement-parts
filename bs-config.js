@@ -16,8 +16,8 @@ module.exports = {
     port: 3001,
   },
   files: [
-    "./hamburger/index.pug",
-    "./hamburger/src/scss/style.scss':'./hamburger/src/css/style.css'",
+    "./flow/index.pug",
+    "./flow/src/scss/style.scss':'./flow/src/css/style.css'",
   ],
   watchEvents: ["change"],
   watch: false,
@@ -26,7 +26,7 @@ module.exports = {
   watchOptions: {
     ignoreInitial: true,
   },
-  server: "hamburger",
+  server: "flow",
   proxy: false,
   port: 3000,
   middleware: false,
