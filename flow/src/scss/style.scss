@@ -16,3 +16,32 @@ p {
     font-size: 4rem;
   }
 }
+
+.leftanimeinner {
+  opacity: 0;
+}
+
+.slideanimeleftright {
+  animation-name: slideTextX-100;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
+  opacity: 0;
+}
+
+@keyframes slideTextX-100 {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+      transition: 1s;
+    }
+    50% {
+      transform: translateX(50%);
+      opacity: 1;
+      transition: 1s;
+      }
+    100% {
+    transform: translateX(0);
+    opacity: 1;
+    transition: 1s;
+    }
+}
